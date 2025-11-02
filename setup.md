@@ -4,6 +4,10 @@ minikube start --nodes=3
 #To stop the cluster
 minikube stop
 
+#Apply the dashboard manifest
+kubectl apply -f recommended.yaml
+kubectl apply -f dashboard-admin-user.yaml
+
 #To get the token to login to dashboard
 kubectl -n kubernetes-dashboard describe secret admin-user-token
 
