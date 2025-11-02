@@ -1,2 +1,1 @@
-# k8s-dashboard-setup
-Setup the Kubernetes Dashboard
+To setup the kubernetes dashboard for cluster.
